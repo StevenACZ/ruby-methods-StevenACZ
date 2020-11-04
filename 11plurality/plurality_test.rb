@@ -8,7 +8,7 @@ class PluralityTest < Minitest::Test
 
   # get_list method
   def test_get_list_with_valid_input
-    # skip
+    skip
     _output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
@@ -26,7 +26,7 @@ class PluralityTest < Minitest::Test
   end
 
   def test_get_list_show_prompt_correctly
-    # skip
+    skip
     output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
@@ -46,7 +46,7 @@ class PluralityTest < Minitest::Test
   end
 
   def test_get_list_show_error_when_out_of_range_input
-    # skip
+    skip
     output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
@@ -68,7 +68,7 @@ class PluralityTest < Minitest::Test
 
   # get_positive method
   def test_get_possitive_method_show_correct_prompt
-    # skip
+    skip
     output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
@@ -88,7 +88,7 @@ class PluralityTest < Minitest::Test
   end
 
   def test_get_possitive_method_show_error_message_when_input_not_positive
-    # skip
+    skip
     output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
@@ -109,7 +109,7 @@ class PluralityTest < Minitest::Test
   end
 
   def test_get_possitive_method_return_only_positive_value
-    # skip
+    skip
     _output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
@@ -128,7 +128,7 @@ class PluralityTest < Minitest::Test
 
   # valid_vote? method
   def test_valid_vote_return_true_when_name_is_valid
-    # skip
+    skip
     _output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
@@ -143,7 +143,7 @@ class PluralityTest < Minitest::Test
   end
 
   def test_valid_vote_return_false_when_name_is_invalid
-    # skip
+    skip
     _output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
@@ -158,7 +158,7 @@ class PluralityTest < Minitest::Test
   end
 
   def test_valid_vote_add_1_to_candidate_votes_when_valid
-    # skip
+    skip
     _output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
@@ -174,7 +174,7 @@ class PluralityTest < Minitest::Test
   end
 
   def test_valid_vote_do_nothing_when_invalid
-    # skip
+    skip
     _output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
@@ -191,7 +191,7 @@ class PluralityTest < Minitest::Test
 
   # print_winner method
   def test_print_winner_when_only_one_winner
-    # skip
+    skip
     output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
@@ -211,7 +211,7 @@ class PluralityTest < Minitest::Test
   end
 
   def test_print_winners_when_is_a_tie
-    # skip
+    skip
     output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
@@ -232,7 +232,7 @@ class PluralityTest < Minitest::Test
 
   # Test the program as a whole
   def test_display_the_correct_winner
-    # skip
+    skip
     output, _error = capture_io do
       fake_names = "Diego Wences Deyvi"
       fake_voters = "5"
